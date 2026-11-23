@@ -1,0 +1,14 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Andrés Vásquez · Senior Cloud &amp; SRE · vask8s_</title><meta name="description" content="Andrés Vásquez, Senior Cloud &amp; SRE based in Medellín. 10+ years running AWS, Kubernetes and Terraform in production. This site deploys itself as a pipeline."><link rel="canonical" href="https://vask8s.github.io/en/"><link rel="alternate" hreflang="en" href="https://vask8s.github.io/en/"><link rel="alternate" hreflang="es" href="https://vask8s.github.io/es/"><link rel="alternate" hreflang="x-default" href="https://vask8s.github.io/en/"><meta name="theme-color" content="#18191b"><noscript><meta http-equiv="refresh" content="0; url=/en/"></noscript><script>
+    (function () {
+      var saved = null;
+      try { saved = localStorage.getItem('vk-lang'); } catch (e) {}
+      var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'en'];
+      var pick = 'en';
+      for (var i = 0; i < langs.length; i++) {
+        var l = String(langs[i]).toLowerCase().slice(0, 2);
+        if (l === 'es' || l === 'en') { pick = l; break; }
+      }
+      if (saved === 'en' || saved === 'es') pick = saved;
+      location.replace('/' + pick + '/' + location.search + location.hash);
+    })();
+  </script></head><body style="background:#18191b"><p style="font:16px sans-serif;color:#eff0f1;padding:24px"><a href="/en/" style="color:#6e8fe6">English</a> · <a href="/es/" style="color:#6e8fe6">Español</a></p></body></html>
